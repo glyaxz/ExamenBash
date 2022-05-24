@@ -1,0 +1,60 @@
+Javier Garcia Ruiz
+
+Actividad 1)
+cp /etc/passwd /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux
+
+Actividad 2)
+mv /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/passwd pruebas.txt
+
+Actividad 3)
+more /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/pruebas.txt 
+
+Actividad 4)
+
+
+Actividad 5)
+
+
+Actividad 6)
+grep -v "root" /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/pruebas.txt
+
+Actividad 7)
+grep -e "^`r.o.sh$" /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/pruebas.txt
+
+Actividad 8)
+sed -e 's/:/,/g' /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/pruebas.txt
+
+Actividad 9)
+sed -e 's/ //g' /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/pruebas.txt
+
+Actividad 10)
+
+Actividad 11)
+
+Actividad 12)
+file /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/pruebas.txt
+
+Actividad 13)
+chmod 210 /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/PruebaPermisos
+
+Actividad 14)
+chmod u=wx g=x o=rwx /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/PruebaPermisos/a.txt
+chmod u=r g=wx o= /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/PruebaPermisos/b.txt
+
+Actividad 15)
+chmod 524 /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/PruebaPermisos/a.txt
+chmod 317 /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/PruebaPermisos/a.txt
+chmod u=rx g=w o=r /home/glyaxz/Desktop/glyaxz/ExamenLinux/PruebaPermisos/a.txt
+chmod 317 /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/PruebaPermisos/a.txt
+chmod 
+chmod 317 /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/PruebaPermisos/a.txt
+
+Actividad 16)
+man cp | grep file 2> /dev/null > /home/glyaxz/Desktop/glyaxz/Clase/ExamenLinux/salida.txt
+
+Actividad 17)
+cat /etc/passwd | grep glyaxz 
+
+Actividad 18)
+ls /etc | sort -r
+
